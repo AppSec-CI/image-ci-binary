@@ -11,7 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       IMAGE_NAME: demo-vuln-image
-      PROJECT_KEY: ${{ vars.ORCA_SECURITY_PROJECT_KEY }}
       
     steps:
     - name: Checkout
